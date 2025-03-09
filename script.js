@@ -254,16 +254,19 @@ function perdidoOganado() {
   setInterval(function () {
     if (tiempoTotal === 0) {
       alert("Has perdido");
+      alert("Si desea volver a Jugar, pulse aceptar");
       location.reload();
       return;
     }
     if (vidaTotal === 0) {
       alert("Has perdido");
+      alert("Si desea volver a Jugar, pulse aceptar");
       location.reload();
       return;
     }
     if (puntacionDeParejas === parseInt(numeroDeParejas)) {
       alert("Has ganado");
+      alert("Si desea volver a Jugar, pulse aceptar");
       location.reload();
       return;
     }
